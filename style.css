@@ -1,0 +1,400 @@
+*{
+    margin:0;
+    font-family: arial;
+    border:border-box;
+}
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width :100px;
+} 
+.logo{
+    background-image:url("amazon_logo.webp");
+    background-size: cover;
+    height: 50px;
+    width :100px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+
+.address-font{
+    color: #cccccc;
+    font-size: 0.80rem;
+    margin-left: 20px;
+}
+.address-name{
+     font-size: 1rem;
+     margin-left:3px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+
+
+.nav-search{
+    display:flex;
+    background-color:orange;
+    width:500px;
+    height:40px;
+    border-radius:4px; 
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-txt{
+    width:450px;
+    font-size: 1rem;
+    border:none;
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color:black;
+}
+
+span{
+    font-size: 0.80rem;
+}
+
+.nav-second{
+ font-size :1rem;
+ font-weight:650;
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+    font-size:30px;
+}
+
+
+/* second nav bar */
+.secnavbar{
+    height : 40px;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-options p{
+    display:inline;
+    margin-left: 15px;
+}
+.panel-options {
+    width: 800px;
+    font-size:1rem;
+}
+.panel-select{
+    font-size:1rem;
+    font-weight:700;
+}
+
+
+/* back ground image */
+
+.back-image{
+     background-image:url("BGimage.jpg");
+     background-size: cover;
+     height:300px;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     
+}
+.back-text{
+    color:black;
+    background-color: white;
+   font-size:0.8rem;
+   display: flex;
+   height:30px;
+   align-items: center;
+   justify-content: center;
+   width:90%;
+   margin-bottom:25px;
+}
+.back-text a{
+color:#007185;
+}
+
+
+/* item section */
+.Item-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#74d6e1 ;
+}
+.box{
+    border:2px solid white;
+    height:390px;
+    width:18.5%;
+    background-color: rgb(78, 46, 45);
+    padding: 20px 0px 15px;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     border-radius:4px;
+}
+.box-content p{
+    color:#007185;
+}
+
+/* box1 */
+.box1{
+    color:beige;
+   
+}
+.back-imge{
+    height :330px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* box 2 */
+.box2{
+    color:beige;
+   
+}
+.back-imge2{
+    background-size: cover;
+    height :330px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* box 3 */
+.box3{
+    color:beige;
+   
+}
+.back-imge3{
+  background-size: cover;
+    height :330px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* box4 */
+.box4{
+    color:beige;
+   
+}
+.back-imge4{
+  background-size: cover;
+    height :330px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* box5 */
+.box5{
+    color:beige;
+   
+}
+.back-imge5{
+  background-size: cover;
+    height :330px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* box6 */
+.box6{
+    color:beige;
+   
+}
+.back-imge6{
+  background-size: cover;
+    height :330px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* box7 */
+.box7{
+    color:beige;
+   
+}
+.back-imge7{
+  background-size: cover;
+    height :330px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* box8 */
+.box8{
+    color:beige;
+   
+}
+.back-imge8{
+  background-size: cover;
+    height :330px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* box9 */
+.box9{
+    color:beige;
+   
+}
+.back-imge9{
+  background-size: cover;
+    height :330px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* box10 */
+.box10{
+    color:beige;
+   
+}
+.back-imge10{
+  background-size: cover;
+  width: 80p;
+    height :330px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+/* footer content */
+
+.end-text{
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    align-items: center;  
+      justify-content: center;
+    font-size: 1rem;
+    height: 40px;
+}
+.end-text:hover{
+    border: 2px solid rgb(255, 0, 8);
+}
+.line{
+    border: 2px solid white;
+}
+.sec-text{
+    background-color: #222f3d;
+    color:white;
+    height:400px;
+    display:flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+ul{
+margin-top: 60px;
+}
+ul a{
+ display: block;
+ font-size: 0.8rem;
+ margin-top: 10px;
+ color:#dddddd;
+}
+/* third section */
+.third-section{
+    background-color: black;
+    height:100px;
+    display: flex;
+    border-top: 0.6px solid white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.newlogo{
+    background-size: cover;
+    background-image:url("amazon_logo.webp");
+    height:50px;
+    width:100px;
+    
+}
+
+/* forthnavbar */
+.footpanel-four{
+    background-color: #222f3d;
+    /* display:flex;
+    align-items: center;
+    justify-content: center; */
+    height:70px;
+    border:1.5px solid white;
+}
+.last-tag{
+    font-size: 0.8rem;
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+}
+.link-tag{
+    padding-top: 5px;
+     font-size: 0.8rem;
+    color:white;
+    text-align: center;
+}
